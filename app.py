@@ -6,7 +6,6 @@ with open("spam_classifier.pkl", "rb") as f:
 
 with open("vectorizer.pkl", "rb") as f:
     vectorizer = pickle.load(f)
-title aur layout
 st.set_page_config(page_title="Smart Spam Mail Detector", layout="centered")
 
 st.title("📧 Smart Spam Mail Detection System")
